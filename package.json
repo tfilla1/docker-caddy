@@ -1,0 +1,22 @@
+{
+  "name": "docker-caddy",
+  "version": "1.0.0",
+  "description": "docker caddy node app boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm install && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.39",
+    "typescript": "^4.2.4"
+  },
+  "author": "tfilla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
